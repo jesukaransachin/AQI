@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
              @Override
              public void onResponse(Call<ResponseAqi> call, Response<ResponseAqi> response) {
                 //setBgColor(response.body().data.aqi);
-                 Log.d("TAG",response.body().toString());
+                 Log.d("TAG123",response.body().toString());
              }
 
              @Override
