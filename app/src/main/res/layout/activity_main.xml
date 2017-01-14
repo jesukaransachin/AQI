@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="testapp.ingrammicro.com.aqicn.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtbandra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bandra"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:onClick="OnBandraClick"/>
+
+        <TextView
+            android:id="@+id/txtnewmumbai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="New Mumbai"
+            android:textSize="20sp"
+            android:onClick="OnNewMumbaiClick"/>
+
+        <TextView
+            android:id="@+id/txtusconsulate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="US Consulate!"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:onClick="OnUSClick"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtoutput"
+        android:text="Select Place To View The Air Quality"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+</LinearLayout>
